@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    color:black;
+}
+
+body {
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+}
+
+article{
+    height: 100vh;
+    width: 100vw;
+}
+
+#glavnaya{
+    background-image: url(sangonomiya-kokomi-3840x2160-21399.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding-top: 5%;
+}
+
+header{
+    padding: 10px 5%;
+    position: fixed;
+    background-color: rgba(211, 238, 247, 0.95);
+    width: 100%;
+}
+
+header>*{
+    display:inline-block;
+    width:450px;
+    padding: 20px 35px;
+}
+
+header>h1{
+    font-size: 40px;
+    margin-left: -75px;
+
+}
+
+.pustota{
+    width:35%;
+}
+
+a{
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+header a:hover{
+    color: rgba(142, 178, 190, 0.95);
+    transition: 0.5s;
+    text-decoration:underline;
+}
+
+#div{
+    display: inline-block;
+    background-color: rgba(211, 238, 247, 0.9);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+#sec1{
+    font-size:40px;
+    padding: 15% 0 1% 3%;
+}
+
+#sec2{
+    font-size:30px;
+    padding: 0 3% ;
+    width: 100vh;
+}
+
+#news{
+    padding-top: 100px;
+    background-color: rgb(227, 242, 255);
+}
+
+#nwh1{
+    font-size: 40px;
+    text-align: center;
+}
+
+#pnews{
+    font-size: 40px;
+    text-align: center;
+}
+
+#pnews>p{
+    border-radius: 15px;
+    padding: 10px;
+    background-color: rgb(191, 212, 231);
+    display: inline-block;
+}
